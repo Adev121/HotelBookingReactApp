@@ -1,0 +1,24 @@
+.register{
+  color: black;
+  font-weight: bold;
+  background-color: white;
+}
+
+
+.register:hover{
+  color: white;
+  font-weight: bold;
+  background-color: #186df5;
+}
+.login{
+    color: black;
+    font-weight: bold;
+    background-color: rgb(61, 167, 48);
+
+}
+
+.login:hover{
+  color: white;
+  font-weight: bold;
+  background-color: #186df5;
+}

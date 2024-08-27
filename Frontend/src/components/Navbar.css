@@ -1,0 +1,57 @@
+.register{
+    color: black;
+    font-weight: bold;
+    background-color: white;
+  }
+  
+  
+  .register:hover{
+    color: white;
+    font-weight: bold;
+    background-color: #186df5;
+  }
+  .login{
+      color: black;
+      font-weight: bold;
+      background-color: rgb(61, 167, 48);
+  
+  }
+  
+  .login:hover{
+    color: white;
+    font-weight: bold;
+    background-color: #186df5;
+  }
+
+  .Nav-Links li{
+    margin: 20px;
+    list-style: none;
+    text-decoration: none;
+    color: white;
+    font-family: poppins;
+    font-size: 18px;
+  }
+
+  .Nav-Links li a{
+    color: white;
+    text-decoration: none;
+  }
+
+  .Nav-Links li a:hover{
+    color: #019e50;
+    text-decoration: none;
+    transition: color 0.3s ease-in-out;
+  }
+
+  .User{
+    margin-right: 20px;
+    color: white;
+    font-family: poppins;
+    font-size: 18px;
+    text-decoration: none;
+  }
+
+
+  .dropdwn-btn{
+    background-color: black;
+  }
