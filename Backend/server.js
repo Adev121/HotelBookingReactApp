@@ -3,6 +3,7 @@ import mongoose from 'mongoose';
 import dotenv from 'dotenv'
 import roomsRoute from './Routes/roomsroute.js';
 import userRoute from './Routes/user.route.js';
+import bookingRoute from './Routes/booking.route.js';
 import cors from 'cors'
 dotenv.config();
 
@@ -35,6 +36,7 @@ app.listen(port, () => console.log(`Server running at port ${port}`));
 
 app.use("/api/Rooms",roomsRoute);
 app.use("/api/User",userRoute);
+app.use("/api/Bookings",bookingRoute);
 
 
 // endpoint: http://localhost:4000/api/rooms/allRooms/

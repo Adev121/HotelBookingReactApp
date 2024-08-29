@@ -13,6 +13,10 @@ const BookingSchema = mongoose.Schema({
         type: String,
         required: true
     },
+    userName:{
+        type: String,
+        required: true
+    },
     checkin:{
         type: String,
         required: true

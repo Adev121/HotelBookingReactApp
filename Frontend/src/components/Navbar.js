@@ -10,7 +10,10 @@ function Navbar() {
   }
   const handleLogout=()=>{
     localStorage.removeItem("UserInfo");
-    window.location.href = "/";
+    // setTimeout(()=>{
+    //   window.location.href = "/";
+    // },1000)
+    
   }
   
   return (
